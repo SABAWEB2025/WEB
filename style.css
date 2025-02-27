@@ -1,0 +1,197 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+}
+.logo {
+    width: 40px; /* ajusta el tamaño */
+    height: auto;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #f4f4f4; /* Fondo claro para el encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño grande para el encabezado */
+    margin: 0;
+}
+
+/* Estilo para el contenido */
+.contenido {
+    margin-top: 20px; /* Espacio entre el encabezado y los párrafos */
+    padding: 0 20px;
+}
+
+/* Estilo para los párrafos */
+.contenido p {
+    font-size: 1.1em; /* Tamaño de fuente ligeramente mayor */
+    line-height: 1.6; /* Mejor interlineado para legibilidad */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #f4f4f4; /* Fondo claro para el encabezado */
+    padding: 20px;
+    text-align: center; /* Centrado del título */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño grande para el encabezado */
+    margin: 0;
+}
+
+/* Estilo para el contenido */
+.contenido {
+    margin-top: 20px; /* Espacio entre el encabezado y los párrafos */
+    padding: 0 20px; /* Evitar que los párrafos toquen los bordes de la página */
+}
+
+/* Estilo para los párrafos */
+.contenido p {
+    font-size: 1.1em; /* Tamaño de fuente ligeramente mayor */
+    line-height: 1.6; /* Mejor interlineado para legibilidad */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    text-align: left; /* Alinea los párrafos a la izquierda */
+    margin-left: 0; /* Asegura que no haya margen a la izquierda */
+    margin-right: 0; /* Asegura que no haya margen a la derecha */
+}
+
+
+header {
+    background: linear-gradient(135deg, #0478f4, #4360f0f7);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+.header-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-container h1 i {
+    font-size: 42px;
+    color: #ffeb3b;
+}
+
+.header-description, .contact-description {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    background: rgba(19, 127, 242, 0.979);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.whatsapp-btn:hover {
+    background: #1EBE5D;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-family: 'Playfair Display', serif; /* Elegante y clásica */
+    font-size: 4em; /* Tamaño grande para que el título se destaque */
+    font-weight: bold; /* Negrita para mayor énfasis */
+    color: #2c3e50; /* Color oscuro, profesional */
+    text-align: center; /* Centrado para una mejor estética */
+    letter-spacing: 2px; /* Espaciado entre letras para mayor sofisticación */
+    text-transform: uppercase; /* Mayúsculas para un toque más formal */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    margin-top: 50px; /* Espacio superior para no estar pegado al borde */
+    margin-bottom: 30px; /* Espacio inferior para separar de otros elementos */
+}
+
+/* Efecto de hover en el título */
+h1:hover {
+    color: #9b59b6; /* Cambia el color a un tono elegante al pasar el mouse */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra más prominente al pasar el mouse */
+    transform: translateY(-5px); /* Eleva el título ligeramente */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+}
